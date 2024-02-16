@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    
+    background-color: black;
+   
+    align-items: center;
+
+    justify-content: space-between;
+    
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+.nav ul {
+    display: flex;
+    
+}
+.nav li{
+    list-style-type: none;
+    display: flex;
+    margin-left:15px ;
+    
+}
+.container img {
+    width: 50%%;
+    height: 50px;
+    
+
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(39, 126, 177);
+}
+.nav li a:hover{
+    color: aliceblue;
+    border-bottom-color: aliceblue;
+    border-bottom: 1px solid white;
+}
+.buttons{
+    display: flex;
+    margin-right: 20px;
+    
+}
+.buttons .btn1 , .buttons .btn2{
+    margin: 0px 20px ;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    
+
+
+    
+}
+.buttons .btn1:hover , .buttons .btn2:hover{
+    background-color: cadetblue;
+    
+}
+
+/* nav css ends */
+
+.hero{
+    background-image: url(images/cexin-ding-kSpp_rUvVXo-unsplash.jpg);
+    background-repeat: none;
+    background-size: contain;
+    width: 100%;
+    height: 80vh;
+    
+}
+.content{
+    
+    display: flex;
+    color: antiquewhite;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    
+    
+    height: 100%;
+    justify-content:center;
+    
+}
+
+/*cards star*/
+.cards{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-evenly;
+    margin-top: 25px;
+    
+}
+.card1{
+    
+    width: 28%;
+    border: 1px solid;
+    box-shadow: 0px 0px 15px gray;
+}
+.cards .card1 .cardbody{
+    
+    width: 100%;
+}
+.cards .card1 .cardbody img{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.div1 li{
+    list-style-type: none;
+    margin: 10px 0px 0px 0px;
+}
+.div1 ,.div1 li {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.div1 h3{
+    padding-left:15px ;
+    color: aliceblue;
+}
